@@ -53,6 +53,7 @@ include_directories(SYSTEM "lib/easyloggingpp/src" "lib/better-enums/")
 
 # adding submodules
 add_subdirectory("lib/googletest")
+add_subdirectory("lib/eigen")
 
 set( CMAKE_BUILD_TYPE_COPY "${CMAKE_BUILD_TYPE}" )
 set( CMAKE_BUILD_TYPE "Release" )
